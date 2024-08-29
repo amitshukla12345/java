@@ -2,6 +2,7 @@ class Datatypes
 {
 	public static void main(String args[])
 	{
+		// These are primitive data type
 		byte a=5;
 		// "Value of a is"+3
 		// "a= "+a 
@@ -21,6 +22,25 @@ class Datatypes
 		 
 		 float d=12.96f;
 		 System.out.println("value of d "+d);
+		 
+		 long e=123456789101112l;
+		 System.out.println(e);
+		 
+		 double f=25.963457;
+		 System.out.println(f);
+		 
+		 char g='@';
+		 System.out.println(g);
+		 
+		 boolean h=true;//false
+		 System.out.println(h);
+		 
+		 
+		 
+		 
+		 
+		 
+		 
 		
 	}
 }

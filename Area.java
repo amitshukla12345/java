@@ -1,0 +1,9 @@
+class area
+{
+	public static void main(String args[])
+	{
+		int L=5;
+		int b=6;
+		System.out.println("area of rectangle"+(L*b)) ;
+	}
+}

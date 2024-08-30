@@ -1,0 +1,22 @@
+class bit
+{
+	public static void main(String arg[])
+	{
+		/*Bitwise operators
+		Bitwise and & If all bits are 1 then it gives one otherwise 0
+		Bitwise or |
+		Bitwise XoR ^
+		Bitwise not ~
+		*/
+		System.out.println(15&6);
+		// or 
+		System.out.println(15|6);
+		// xor
+		System.out.println(15^6);
+		// not ~
+		System.out.println(~15);
+		
+	
+		
+	}
+}

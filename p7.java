@@ -1,0 +1,24 @@
+import java.util.Scanner;
+ class p7
+{
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		boolean subscribed=false;
+		System.out.println("Do you want to subscribe ??(y/N)");
+		char decision=sc.next().charAT(0);
+		if(decision=='y'|| decision=='Y')
+		{
+			Subscribed=true;
+		}
+		System.out.println("subscribe:"+subscribed);
+		if(subscribed)
+		{
+			System.out.println("You are subscribed");
+		}
+		else
+		{
+			System.out.println("You are not subscribed");
+		}
+	}
+}

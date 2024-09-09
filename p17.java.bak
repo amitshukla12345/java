@@ -1,0 +1,29 @@
+class p17
+{
+	public static void main(String args[])
+	{
+		int i=10;
+		while(i<=15 )
+		{
+			System.out.println(i);
+			i++;
+		}
+		int n=963;
+		int digitCount=0;
+		while (n!=0)
+		{
+			n=n/10;
+			digitCount++;
+		}
+		System.out.println(digitCount);
+		if(digitCount>5)
+		{
+			System.out.println("number too large");
+		}
+		else
+		{
+			System.out.println("number is small");
+		}
+	}
+	
+}

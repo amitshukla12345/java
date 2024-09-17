@@ -1,0 +1,64 @@
+import java.util.Scanner;
+class array3
+{
+	//command Line arguments
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		
+		/*System.out.println(args[0]);
+		System.out.println(args[1]);*/
+		
+		String Weekdays[]={"Mon","Tue","thurs","Fri","sat","sun"};
+		
+		int primeNumbers[]={11,13,17,5};
+		System.out.println("Weekdays:"+Weekdays.length);
+		System.out.println("primeNumbers:"+primeNumbers.length);
+		
+		//Enhanced for loop
+		
+		for(int num:primeNumbers)
+		{
+			System.out.println(num);
+		}
+		
+		int numbers[]={1,4,6,2,45};
+		int sum=0;
+		for(int n:numbers)
+		{
+			sum+=n;
+		}
+		System.out.println("sum is"+sum);
+		
+		//------------------------------------------------------
+		
+		/*char ch[]={'a','e','i','a','c','a'};
+		int count=0;
+		for(char c:ch)
+		{
+			if(c=='a')
+				count++;
+		}
+		System.out.println(count);*/
+		
+		char vo[]={'a','e','t','i'};
+		int count=0;
+		int Vowels=0;
+		int Consonants=0;
+		for(char c:vo)
+		{
+			if(c=='a')
+				count++;
+			if(c=='a'||c=='e'||c=='i'||c=='o'||c=='u')
+				Vowels++;
+			else
+				Consonants++;
+		}
+		System.out.println("count:"+count);
+		System.out.println("Vowels:"+Vowels);
+		System.out.println("Consonants:"+Consonants);
+		
+		
+	
+	}
+}

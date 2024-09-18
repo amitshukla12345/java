@@ -12,7 +12,7 @@ class array4
 			if(smallest>n)
 				smallest=n;
 			
-			if(beggest<n)
+			if(biggest<n)
 				biggest=n;
 		}
 		System.out.println(smallest);
